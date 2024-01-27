@@ -1,0 +1,15 @@
+name: Self test
+
+on:
+ push:
+    branches:
+      - dev
+
+jobs:
+  test_it:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Why hello there...
+        uses: brianmmdev-that-actions/public-action@dev
+        with:
+          name: Brian
