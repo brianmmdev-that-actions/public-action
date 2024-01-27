@@ -26,7 +26,7 @@ jobs:
 
 ### Required
 
-name - The name of the camper.
+`name` - The name of the camper.
 
 ## Outputs
 
