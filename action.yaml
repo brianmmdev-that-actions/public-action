@@ -1,6 +1,10 @@
 name: 'THAT Public Action'
 description: 'Not THIS one...'
 
+branding:
+  icon: activity
+  color: blue
+
 inputs:
   name:
     description: 'Who are we saying hello to?'
